@@ -1,0 +1,116 @@
+@import url('normalize.css');
+@import url('bootstrap.min.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+	position: relative;
+}
+.login{
+	/*width: 400px;*/
+	font-family: "calibri";
+	/*border: 1px solid #E1E1E1;*/
+	border-radius: 4px;
+	padding: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/*background-color: #E1E1E1;
+	box-shadow: 7px 13px 37px #000;*/
+	width: 400px;
+	background: #24303c;
+	padding: 30px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 4px;
+	font-family: "calibri";
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+.form-register {
+	width: 400px;
+	background: #24303c;
+	padding: 30px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 4px;
+	font-family: "calibri";
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+	font-size: 22px;
+	margin-bottom: 20px;
+  }
+  
+  .controls {
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 25px;
+	margin-bottom: 16px;
+	border: 2px solid #fafafa;
+	font-family: "calibri";
+	font-size: 18px;
+	color: white;
+  }
+  
+  .form-register p {
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+  }
+  
+  .form-register a {
+	color: white;
+	text-decoration: none;
+  }
+  
+  .form-register a:hover {
+	color: white;
+	text-decoration: underline;
+  }
+  
+  .form-register .botons {
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+	border-radius: 5px;
+  }
+
+  .btn {
+	/*padding: 0.6rem 1.3rem;*/
+	background-color: #fff;
+	border: 5px solid #fafafa;
+	/*font-size: 0.95rem;*/
+	color: #1abc9c;
+	line-height: 1;
+	/*border-radius: 25px;*/
+	outline: none;
+	cursor: pointer;
+	transition: 0.3s;
+	margin: 0;
+	
+	width: 100%;
+	padding: 10px;
+	border-radius: 25px;
+	margin-bottom: 16px;
+	border: 2px solid #fafafa;
+	font-family: "calibri";
+	font-size: 18px;
+  }
+  
+@media (max-width: 400px){
+	.login{
+		width: 90%;
+	}
+}
